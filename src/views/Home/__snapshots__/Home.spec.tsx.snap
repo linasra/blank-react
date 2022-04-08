@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home view should render the component correctly and match snapshot 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.c1 {
+  width: 10em;
+}
+
+.c2 {
+  font-size: 2rem;
+}
+
+.c3 {
+  color: #0074d9;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.c3:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <img
+      alt="logo"
+      class="c1"
+      src="test-file-stub"
+    />
+    <h1
+      class="c2"
+    >
+      Blank - React
+    </h1>
+    <a
+      class="c3"
+      href="/about/"
+    >
+      About
+    </a>
+  </div>
+</div>
+`;
